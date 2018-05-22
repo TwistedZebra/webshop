@@ -1,0 +1,85 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	
+}
+
+.navigationMenu
+{	
+	position: relative;
+	border-bottom: solid black 1px;
+	height: 30px;
+	width: 100%;
+	background-color: black;
+
+}
+
+.navigationMenu .brand
+{	
+	position: absolute;
+	top: -5px;
+	left: 5px;
+
+}
+
+.navigationMenu .brand p
+{	
+	font-size: 25px;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #00FF00;
+	text-align:center;
+}
+
+.navigationMenu .brand a
+{	
+	text-decoration-line: none;
+}
+
+#container
+{
+	position: relative;
+}
+#container #products
+{
+	left: 500px;
+}
+.img
+{
+	width: 300px;
+	height: 300px;
+}
+
+#cart
+{	
+	position: relative;
+	border: dotted grey 5px;
+	height: 730px;
+	width: 300px;
+	left: 70px;
+	top: -725px;
+	background-color: 	#F5F5F5;
+	
+}
+
+#advertisment
+{	
+	position: relative;
+	height: 730px;
+	width: 300px;
+	right:  -1500px;
+	top: -1450px;
+	background-color: 	#F5F5F5;
+	background-image: url("img/background.jpg");
+	background-size: cover;
+	
+}
+
+#butCanYouDoThis
+{
+	position: relative;
+	top: 250px;
+	right: 15px;
+}
