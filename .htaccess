@@ -1,0 +1,3 @@
+RewriteEngine On
+
+RewriteRule ^product/(.*)$ product.php?slug=$1 [NC,l]

@@ -64,22 +64,3 @@ body
 
 }
 
-#advertisment
-{
-	position: relative;
-	height: 730px;
-	width: 300px;
-	right:  -1500px;
-	top: -1450px;
-	background-color: 	#F5F5F5;
-	background-image: url("img/background.jpg");
-	background-size: cover;
-
-}
-
-#butCanYouDoThis
-{
-	position: relative;
-	top: 250px;
-	right: 15px;
-}

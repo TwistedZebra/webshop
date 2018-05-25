@@ -1,4 +1,4 @@
-<?php 
+<?php
 	require("config.php");
 
 	$database = db();
@@ -44,12 +44,14 @@
 			<?php  foreach($products as $product){ ?>
 			<div id="products" class="col-lg-2">
 				<h2><?php echo $product['title']; ?></h2>
-				<img class="img" src="img/<?php echo $product['image']; ?>">
+				<a href="product/<?php echo $product['slug'] ?>"><img class="img" src="img/<?php echo $product['image']; ?>"></a>
 				<p><?php echo $product['description']; ?></p>
 				<p> €<?php echo $product['price']; ?></p>
 				<button class="btn btn-success">Add product</button>
 			</div>
 			<?php } ?>
+
+<a href="product/{slug}"></a>
 		</div>
 	</div>
 
